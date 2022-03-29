@@ -81,7 +81,7 @@ describe('tests for calculator fucntionality', () => {
 
   test('click on subtBtn subtracts 1 from result', () => {
     render(<Calculator />)
-    const subtBtn = screen.getByTestId('sbut-btn')
+    const subtBtn = screen.getByTestId('subt-btn')
     const resultEl = screen.getByTestId('result')
 
     expect(resultEl.textContent).toBe('0')
